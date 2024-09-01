@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#display, #operators {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+
+#add, #multiply, #divide, #subtract {
+    width: 50px;
+    height: 50px;
+    font-size: 32px;
+}
+
+#numbers {
+    border-style: solid; 
+    border-width: 3px;
+    border-color: lightgray;
+    margin: 20px;
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 50px;
+    text-align: right;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    background-color: #FADADD;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border-style: solid; 
+    border-width: 3px;
+    border-color: lightgray;
+}
+
+#enter, #clear {
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    border-style: solid; 
+    border-width: 3px;
+    border-color: lightgray;
+    font-size: 32px;
+}
+
+button {
+    background-color: #C4D9BE;
+    border-radius: 5px;
+    border: 0px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    border-style: solid; 
+    border-width: 3px;
+    border-color: lightgray;
+}
